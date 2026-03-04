@@ -1,1 +1,15 @@
-Enter a domain to generate a JSON file
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.beardmachinegames.tap",
+      "sha256_cert_fingerprints": [
+        "2B:10:BF:25:D7:B2:91:CD:71:EC:AC:40:DD:0C:30:7F:7F:C6:28:78:D7:7A:A7:CA:75:8C:E0:60:57:52:00:92"
+      ]
+    }
+  }
+]
